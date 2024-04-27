@@ -37,9 +37,6 @@ const ContactThumbnail = ({
                     </View>
                 )
             }
-
-        
-            
         </View>
     );
 }
