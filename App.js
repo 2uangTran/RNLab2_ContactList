@@ -1,13 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Contacts from './screens/Contacts';
-import Profile from './screens/Profile';
-import MyStack from './navigation/stack_navigation';
+import { StyleSheet} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import Favorites from './screens/Favorites';
-import MyTabs from './navigation/bottom_navigation';
-import TabNavigator from './navigation/stack_navigation';
-import { PaperProvider, Provider } from 'react-native-paper';
+import TabNavigator from './navigation/StackNavigation';
+import { Provider } from 'react-native-paper';
 
 
 export default function App() {

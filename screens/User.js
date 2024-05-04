@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator } from 'react-native';
 import { fetchUserContacts } from '../utility/api';
 import ContactThumbnail from '../components/ContactThumbnails';
 import colors from '../utility/colors';

@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react';
+import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { fetchRandomContacts } from '../utility/api';
 import ContactThumbnail from '../components/ContactThumbnails';
